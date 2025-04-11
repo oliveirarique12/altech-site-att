@@ -1,0 +1,82 @@
+body {
+  background-color: #0f0f1c;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111;
+  padding: 10px 20px;
+  border-bottom: 2px solid #00ffff;
+}
+.logo {
+  height: 50px;
+}
+nav a {
+  color: #00ffff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ffffff;
+}
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #222;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #111;
+  border-top: 2px solid #00ffff;
+  color: #888;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(to right, #0f0f1c, #000015);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.overlay {
+  z-index: 2;
+  padding: 20px;
+}
+.logo-hero {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #00ffff;
+  color: #0f0f1c;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color: #000;
+}
